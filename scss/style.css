@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+* body {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+* body .container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body .container .card {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .container .card .sedan-container {
+  background-color: #e38826;
+  border-radius: 6px 0 0 6px;
+}
+
+* body .container .card .sedan-container button {
+  color: #e38826;
+}
+
+* body .container .card .sedan-container button:hover {
+  border: 3px solid #f2f2f2;
+  color: #f2f2f2;
+  background-color: #e38826;
+}
+
+* body .container .card .suvs-container {
+  background-color: #006970;
+}
+
+* body .container .card .suvs-container button {
+  color: #006970;
+}
+
+* body .container .card .suvs-container button:hover {
+  border: 3px solid #f2f2f2;
+  color: #f2f2f2;
+  background-color: #006970;
+}
+
+* body .container .card .luxury-container {
+  background-color: #004241;
+  border-radius: 0 6px 6px 0;
+}
+
+* body .container .card .luxury-container button {
+  color: #004241;
+}
+
+* body .container .card .luxury-container button:hover {
+  border: 3px solid #f2f2f2;
+  color: #f2f2f2;
+  background-color: #004241;
+}
+
+* body .container .card section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  padding: 63px;
+  width: 300px;
+}
+
+* body .container .card section h1 {
+  font-size: 40px;
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+* body .container .card section p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 21px;
+}
+
+* body .container .card section button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  border: 3px solid;
+}
+
+@media screen and (max-width: 920px) {
+  * body .container {
+    padding: 880px 0 0 0;
+  }
+  * body .container .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * body .container .card .sedan-container {
+    border-radius: 6px 6px 0 0;
+    width: 90%;
+  }
+  * body .container .card .suvs-container {
+    width: 90%;
+  }
+  * body .container .card .luxury-container {
+    border-radius: 0 0 6px 6px;
+    margin-bottom: 100px;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
